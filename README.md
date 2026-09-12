@@ -10,8 +10,8 @@ Proyecto de portafolio profesional con los primeros proyectos realizados en el p
 
 Diseño responsivo, usando media queries,flexbox y grids para organizar el diseño, uso de unidades especiales tales como:
 
-calc(). Se uso una herramienta de formateo de código: Prettier.
+calc(). Se usó una herramienta de formateo de código: Prettier.
 
 ## Enlace a pages de Github:
 
-https://alejandrocp81.github.io/web_project_coffeeshop_es/
+ttps://alejandrocp81.github.io/web_project_portfolio_es/
