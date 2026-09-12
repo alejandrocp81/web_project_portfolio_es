@@ -111,8 +111,86 @@
 }
 
 /* ========== Media queries ========== */
+/* ========== Media queries ========== */
 
-@media screen and (max-width: 768px) {
+/* TABLET (1023px e inferiores) */
+@media screen and (max-width: 1023px) {
+  .main__title {
+    font-size: 32px;
+    line-height: 1.3;
+    margin-bottom: 24px;
+  }
+
+  .card__container {
+    gap: 16px; /* Disminuye la separación entre tarjetas */
+  }
+
+  .card {
+    padding: 16px; /* Reduce el relleno interior de cada tarjeta */
+  }
+
+  .card__title {
+    font-size: 20px;
+  }
+
+  .card__content {
+    font-size: 14px;
+  }
+
+  .main__skills--container {
+    gap: 15px; /* Evita que los logos de habilidades se salgan en tablet */
+  }
+}
+
+/* MÓVIL (767px / 768px e inferiores) */
+@media screen and (max-width: 767px) {
+  .card__container {
+    grid-template-columns: 1fr; /* Pasa a 1 columna en móvil */
+    align-items: center;
+  }
+
+  .main__skills--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    gap: 9px;
+  }
+}
+
+/* MÓVIL PEQUEÑO (320px e inferiores) */
+@media screen and (max-width: 320px) {
+  .main__skill {
+    width: 30px;
+    height: 30px;
+  }
+
+  .main__skills--container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .main__title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .card__title {
+    font-size: 18px;
+  }
+
+  .card__content {
+    font-size: 14px;
+  }
+
+  .card__footer {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .card__container {
     grid-template-columns: 1fr;
     align-items: center;

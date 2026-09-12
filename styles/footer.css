@@ -57,14 +57,29 @@
 
 /* ========== Media queries ========== */
 
-@media screen and (max-width: 768px) {
+/* TABLET (1023px e inferiores) */
+@media screen and (max-width: 1023px) {
   .footer__title {
-    font-weight: 700;
-    font-family: "Black", Arial, sans-serif;
-    font-size: 28px;
+    font-size: 32px;
+  }
+
+  .footer__links {
+    gap: 40px; /* Reduce de 70px a 40px para encajar en pantallas medianas */
   }
 }
 
+/* MÓVIL (767px / 768px e inferiores) */
+@media screen and (max-width: 767px) {
+  .footer__title {
+    font-size: 28px;
+  }
+
+  .footer__links {
+    gap: 30px;
+  }
+}
+
+/* MÓVIL PEQUEÑO (320px e inferiores) */
 @media screen and (max-width: 320px) {
   .footer__links {
     display: flex;
