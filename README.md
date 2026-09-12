@@ -1,6 +1,6 @@
 # Portafolio Alejandro Cruz - Desarrollador Full-Stack Junior
 
-Proyecto de portafolio profesional con proyectos realizados en el proceso de aprendizaje como desarrollador web full stack, compuesto por encabezado, perfil, proyectos y pie de página. Sitio web interactivo, con enlaces a redes sociales e información de contacto.
+Proyecto de portafolio profesional con los primeros proyectos realizados en el proceso de aprendizaje como desarrollador web full stack, compuesto por encabezado, perfil, proyectos y pie de página. Sitio web interactivo, con enlaces a redes sociales e información de contacto.
 
 ## Tecnologías utilizadas:
 
