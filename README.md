@@ -14,4 +14,4 @@ calc(). Se usó una herramienta de formateo de código: Prettier.
 
 ## Enlace a pages de Github:
 
-ttps://alejandrocp81.github.io/web_project_portfolio_es/
+https://alejandrocp81.github.io/web_project_portfolio_es/
